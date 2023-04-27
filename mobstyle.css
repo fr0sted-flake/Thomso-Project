@@ -1,0 +1,177 @@
+@media (max-width:61.25em){
+    body{
+        width: 100%;
+        padding:0;
+        margin: 0;
+        align-items: center;
+    }
+    .main{
+        text-align: center;
+        background-image: none;
+        background-color: white;
+        height:500px;
+        position:absolute;
+    
+    }
+    .main h1{
+        text-align: center;
+        color: rgb(95, 94, 94);
+    }
+    .main h2{
+        text-align: center;
+        color: black;
+        font-size: 2.5rem;
+    }
+    .main h3{
+        text-align:center;
+        color:rgb(144, 142, 142);
+        font-size:1.5rem;
+        font-weight: 300;
+        padding:1rem;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    .button1{
+        color:#FF6000;
+        border-color: #FF6000;
+        font-size: 2rem;
+        font-weight: 100;
+        border-radius: 2rem;
+        border-width: 0.15rem;
+    }
+
+    .button2{
+        color:#FF6000;
+        border-color: #FF6000;
+        font-size: 2rem;
+        font-weight: 100;
+        border-radius: 2rem;
+        border-width: 0.15rem;
+    }
+    .button1:hover{
+        color:white;
+    }
+    .button2:hover{
+        color:white;
+    }
+    .img1 img{
+        width: 33rem;
+        margin-left: -55%;
+    }
+    .img2 img{
+        width: 15rem;
+        margin-left: 30%;
+        margin-top: -55%;
+    }
+    .login{
+        margin-left: 10%;
+    }
+    .logincontent{
+        margin-top: -2%;
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .logincontent h3{
+        margin-top: -15%;
+        color: #FF6000;
+        font-weight:bold;
+    }
+    .logincontent h2{
+        color: rgb(4, 4, 75);
+    }
+
+    .del{
+        margin-top: -15%;
+        margin-left: -1%;
+        padding-left: 15%;
+    }
+    .delcontent{
+        margin-top: 1%;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .delcontent h3{
+        margin-top: -15%;
+        color: #FF6000;
+        font-weight: bold;
+    }
+    .delcontent h2{
+        color: rgb(4, 4, 75);
+    }
+    .pay{
+        margin-left: 10%;
+    }
+    .paycontent{
+        margin-top: -2%;
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .paycontent h3{
+        margin-top: -15%;
+        color: #FF6000;
+        font-weight:bold;
+    }
+    .paycontent h2{
+        color: rgb(4, 4, 75);
+    }
+    .lastscroll{
+        background-image: none;
+        background-color:rgb(36, 36, 62);
+    }
+    .lastscroll h2{
+        color: white;
+        letter-spacing: 1px;
+    }
+    .desk{
+        display: none;
+    }
+    .mob{
+        letter-spacing: 1px;
+        display: inline-block;
+        padding:30px;
+        font-family: calibri;
+    }
+    .buttonlast-desk{
+        display: none;
+    }
+    .buttonlast-mob{
+        display: inline-block;
+        align-content: center;
+        position:relative;
+        display: flex;
+        justify-content: center;
+        z-index: 3;
+    }
+    .buttonlast1{
+        padding: 0 2.2rem;
+    }
+    .logolast{
+        display: none;
+    }
+    .last-icons{
+        height:10rem; 
+    }
+    .last-image{
+        padding-top: 4rem;
+    }
+    .copyright{
+        margin-left: 0;
+        margin-top:-8% ;
+    }
+
+    .mobfooter{
+        display: inline-block;
+        width:100%;
+        background:white;
+        margin-top: -6.5%;
+    }
+    .deskfooter{
+        display: none;
+    }
+
+}
